@@ -274,7 +274,7 @@ static id<BFAppLinkResolving> defaultResolver;
     if (defaultResolver) {
         return defaultResolver;
     }
-    return [BFWebViewAppLinkResolver sharedInstance];
+    return nil;
 }
 
 + (void)setDefaultResolver:(id<BFAppLinkResolving>)resolver {

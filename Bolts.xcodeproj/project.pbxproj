@@ -16,14 +16,12 @@
 		1D5D7DAE1BE3CE8200FD67C7 /* BFCancellationTokenRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA39C911ADE715400DD78CC /* BFCancellationTokenRegistration.m */; };
 		1D5D7DAF1BE3CE8200FD67C7 /* BFCancellationTokenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C60AEC21ACF093D00747DD7 /* BFCancellationTokenSource.m */; };
 		1D5D7DB01BE3CE8200FD67C7 /* BFMeasurementEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B242FAB919A567660097ECAE /* BFMeasurementEvent.m */; };
-		1D5D7DB11BE3CE8200FD67C7 /* BFWebViewAppLinkResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA6719900A84000BAE3F /* BFWebViewAppLinkResolver.m */; };
 		1D5D7DB21BE3CE8200FD67C7 /* BFAppLinkNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA5B19900A84000BAE3F /* BFAppLinkNavigation.m */; };
 		1D5D7DB31BE3CE8200FD67C7 /* BFAppLinkReturnToRefererController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA5E19900A84000BAE3F /* BFAppLinkReturnToRefererController.m */; };
 		1D5D7DB41BE3CE8200FD67C7 /* BFAppLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA5919900A84000BAE3F /* BFAppLink.m */; };
 		1D5D7DB51BE3CE8200FD67C7 /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA4F19900A84000BAE3F /* BFExecutor.m */; };
 		1D5D7DB61BE3CE8200FD67C7 /* BFCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C60AEBE1ACF08F300747DD7 /* BFCancellationToken.m */; };
 		1D5D7DB81BE3CE8200FD67C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9C3CEC17DE9DE000427E62 /* Foundation.framework */; };
-		1D5D7DBA1BE3CE8200FD67C7 /* BFWebViewAppLinkResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA6619900A84000BAE3F /* BFWebViewAppLinkResolver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D5D7DBB1BE3CE8200FD67C7 /* BFCancellationTokenRegistration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CA39C901ADE715400DD78CC /* BFCancellationTokenRegistration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D5D7DBC1BE3CE8200FD67C7 /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5019900A84000BAE3F /* BFTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D5D7DBD1BE3CE8200FD67C7 /* BFAppLinkNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5A19900A84000BAE3F /* BFAppLinkNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -149,8 +147,6 @@
 		81ED942E1BE1481900795F05 /* BFAppLinkNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5A19900A84000BAE3F /* BFAppLinkNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81ED942F1BE1481900795F05 /* BFAppLinkNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA5B19900A84000BAE3F /* BFAppLinkNavigation.m */; };
 		81ED94301BE1481900795F05 /* BFAppLinkResolving.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5C19900A84000BAE3F /* BFAppLinkResolving.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81ED94311BE1481900795F05 /* BFWebViewAppLinkResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA6619900A84000BAE3F /* BFWebViewAppLinkResolver.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81ED94321BE1481900795F05 /* BFWebViewAppLinkResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA6719900A84000BAE3F /* BFWebViewAppLinkResolver.m */; };
 		81ED94331BE1481900795F05 /* BFAppLinkReturnToRefererController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5D19900A84000BAE3F /* BFAppLinkReturnToRefererController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81ED94341BE1481900795F05 /* BFAppLinkReturnToRefererController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FA5E19900A84000BAE3F /* BFAppLinkReturnToRefererController.m */; };
 		81ED94351BE1481900795F05 /* BFAppLinkReturnToRefererView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8103FA5F19900A84000BAE3F /* BFAppLinkReturnToRefererView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -256,8 +252,6 @@
 		8103FA6319900A84000BAE3F /* BFAppLinkTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFAppLinkTarget.m; sourceTree = "<group>"; };
 		8103FA6419900A84000BAE3F /* BFURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFURL.h; sourceTree = "<group>"; };
 		8103FA6519900A84000BAE3F /* BFURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFURL.m; sourceTree = "<group>"; };
-		8103FA6619900A84000BAE3F /* BFWebViewAppLinkResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFWebViewAppLinkResolver.h; sourceTree = "<group>"; };
-		8103FA6719900A84000BAE3F /* BFWebViewAppLinkResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFWebViewAppLinkResolver.m; sourceTree = "<group>"; };
 		814916E11AD5D46600EE7C63 /* iOS.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = iOS.modulemap; path = Resources/iOS.modulemap; sourceTree = "<group>"; };
 		8160B82B1DE6277200C6E285 /* BFGeneric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFGeneric.h; sourceTree = "<group>"; };
 		8178F99C1BB0F87700AD289D /* Bolts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bolts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -459,8 +453,6 @@
 				8103FA5A19900A84000BAE3F /* BFAppLinkNavigation.h */,
 				8103FA5B19900A84000BAE3F /* BFAppLinkNavigation.m */,
 				8103FA5C19900A84000BAE3F /* BFAppLinkResolving.h */,
-				8103FA6619900A84000BAE3F /* BFWebViewAppLinkResolver.h */,
-				8103FA6719900A84000BAE3F /* BFWebViewAppLinkResolver.m */,
 				8103FA5D19900A84000BAE3F /* BFAppLinkReturnToRefererController.h */,
 				8103FA5E19900A84000BAE3F /* BFAppLinkReturnToRefererController.m */,
 				8103FA5F19900A84000BAE3F /* BFAppLinkReturnToRefererView.h */,
@@ -642,7 +634,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D5D7DBA1BE3CE8200FD67C7 /* BFWebViewAppLinkResolver.h in Headers */,
 				8160B82D1DE6277200C6E285 /* BFGeneric.h in Headers */,
 				81CF830D1D0B559800633946 /* BFAppLinkReturnToRefererView_Internal.h in Headers */,
 				81CF83111D0B559800633946 /* BFURL_Internal.h in Headers */,
@@ -730,7 +721,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81ED94311BE1481900795F05 /* BFWebViewAppLinkResolver.h in Headers */,
 				8160B82C1DE6277200C6E285 /* BFGeneric.h in Headers */,
 				81CF830C1D0B559800633946 /* BFAppLinkReturnToRefererView_Internal.h in Headers */,
 				81CF83101D0B559800633946 /* BFURL_Internal.h in Headers */,
@@ -982,6 +972,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 8E9C3CE017DE9DE000427E62;
@@ -1052,7 +1043,6 @@
 				1D5D7DAE1BE3CE8200FD67C7 /* BFCancellationTokenRegistration.m in Sources */,
 				1D5D7DAF1BE3CE8200FD67C7 /* BFCancellationTokenSource.m in Sources */,
 				1D5D7DB01BE3CE8200FD67C7 /* BFMeasurementEvent.m in Sources */,
-				1D5D7DB11BE3CE8200FD67C7 /* BFWebViewAppLinkResolver.m in Sources */,
 				1D5D7DB21BE3CE8200FD67C7 /* BFAppLinkNavigation.m in Sources */,
 				1D5D7DB31BE3CE8200FD67C7 /* BFAppLinkReturnToRefererController.m in Sources */,
 				1D5D7DB41BE3CE8200FD67C7 /* BFAppLink.m in Sources */,
@@ -1125,7 +1115,6 @@
 				81ED94161BE147CF00795F05 /* BFCancellationTokenRegistration.m in Sources */,
 				81ED94171BE147CF00795F05 /* BFCancellationTokenSource.m in Sources */,
 				81ED943C1BE1481900795F05 /* BFMeasurementEvent.m in Sources */,
-				81ED94321BE1481900795F05 /* BFWebViewAppLinkResolver.m in Sources */,
 				81ED942F1BE1481900795F05 /* BFAppLinkNavigation.m in Sources */,
 				81ED94341BE1481900795F05 /* BFAppLinkReturnToRefererController.m in Sources */,
 				81ED942D1BE1481900795F05 /* BFAppLink.m in Sources */,
